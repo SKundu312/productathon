@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.btn-block{
+    width: 100%;
+    
+}
+
+#title{
+    background-image: url("https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 6%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* About */
+#about{
+    text-align: center;
+    padding: 7%;
+}
+
+.about-content{
+    margin: 5% auto;
+    width: 80%;
+}
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 10px;
+  }
+
+#footer{
+    text-align: center;
+    background-color: rgb(105, 136, 151);
+}
+
+#footer p{
+    color: #fff;
+}
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }

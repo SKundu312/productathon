@@ -1,0 +1,31 @@
+li{
+    list-style: none;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.pageNo{
+    display: flex;
+    background-color: gray;
+}
+
+.survey{
+    border: 1px solid black; 
+    padding: 2%;
+    margin-top: 15px;
+}
+
+.survey-form{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.number{
+    padding: 20px;
+}
+
